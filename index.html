@@ -49,24 +49,19 @@
             Partly Cloudy
           </li>
         </ul>
-        
         <div>
-        <span class="temperature" id="temperature">20 </span>
-        <span class="units">
-                  <a href="#" id="celsius-link">°C</a> |
-                  <a href="#" id="fahrenheit-link">°F</a>
-                </span>
+          <div class="flexbox">
+            <span class="temperature" id="temperature">20</span>
+              <span class="units">
+                <a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a>
+              </span>
+          </div>
         </div>
         <div class="feature">
-          <ul class="list-group-md">
-            <li class="list-group-item list-group-item-warning">
-              Precipitation: 60%
-            </li>
-            <li class="list-group-item list-group-item-warning">
-              Humidity: 50%
-            </li>
-            <li class="list-group-item list-group-item-warning">Wind: 12km/h</li>
-            <li class="list-group-item list-group-item-warning">UV: 2</li>
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> m/h</li>
+            <li>UV: <span id="UV"></span></li>
           </ul>
         </div>
         <div class="text-center weather">
@@ -98,18 +93,7 @@
             </li>
           </ul>
         </div>
-         <br>
-          <h4>
-            Last Searches
-            <div class="last-searches">
-            <ul class="list-group list-group-horizontal-sm">
-              <li class="list-group-item list-group-item-warning">Istanbul</li>
-              <li class="list-group-item list-group-item-warning">New York</li>
-              <li class="list-group-item list-group-item-warning">Helsinki</li>
-              <li class="list-group-item list-group-item-warning">Roma</li>
-            </ul>
-          </h4>
-        </div>
+      </div>
       </div>
         <small class="coded">
           <a
